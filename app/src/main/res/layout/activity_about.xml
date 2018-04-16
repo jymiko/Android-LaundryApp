@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miko.laundryonline.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tek1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"/>
+
+        <ImageView android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tek2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="\n Laundry Online Application \n versi 1.0 \n November 2017 \n"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tek3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Jatmiko"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="161116026@mhs.stiki.ac.id \n"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="supported by: \n STIKI Malang \n"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</ScrollView>
